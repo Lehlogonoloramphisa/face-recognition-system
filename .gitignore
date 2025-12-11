@@ -1,0 +1,38 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Data and outputs (do not commit raw data)
+data/
+preview/
+*.csv
+*.sqlite
+*.db
+
+# Models (we will manage large models with Git LFS or external storage)
+models/
+*.h5
+*.pt
+*.pth
+*.ckpt
+*.pb
+*.tflite
+*.onnx
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
